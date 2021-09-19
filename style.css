@@ -1,0 +1,28 @@
+.album-thumbnail{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cart{
+    margin: 15px;
+    transition: 0.6s;
+    background-color: rgb(131, 153, 153);
+}
+.cart:hover{
+    box-shadow: 4px 4px 7px gray;
+    border:1px solid cyan;
+    background-color: #264653;
+    border-radius: 10px;
+    color: white;
+    
+}
+.image{
+    text-align: center;
+    margin-top: 30px;
+}
+img{
+    border-radius: 10px;
+}
+.text-property{
+    margin: 25px;
+
+}
